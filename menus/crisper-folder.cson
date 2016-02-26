@@ -1,0 +1,8 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  '.tree-view .directory > .header > .name': [
+    {
+      'label': 'Crisper folder'
+      'command': 'crisper-folder:crisperFolder'
+    }
+  ]

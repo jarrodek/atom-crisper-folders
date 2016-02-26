@@ -1,0 +1,18 @@
+{
+  "name": "crisper-folder",
+  "description": "Crisper HTML files in Atom",
+  "main": "./lib/crisper-folder",
+  "version": "1.0.0",
+  "keywords": [],
+  "activationCommands": {
+    ".tree-view .directory > .header > .name": "crisper-folder:crisperFolder"
+  },
+  "repository": "https://github.com/atom/crisper-folder",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "crisper": "^2.0.1"
+  }
+}
